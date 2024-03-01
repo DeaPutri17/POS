@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>Selamat Datang</h1>
-        <h2>di Toko Serba ada Dea</h2>
+        <h2>di Toko Serba ada {{ $name }}</h2>
         <h3>Selamat Berbelanja</h3>
     </body>
 </html>
