@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,5 +27,6 @@ Route::prefix('/products')->group(function(){
     Route::get('/category/beautyHealth', [ProductController::class, 'beautyHealth']);
     Route::get('/category/homeCare', [ProductController::class, 'homeCare']);
     Route::get('/category/babyKid', [ProductController::class, 'babyKid']);
-
 });
+
+Route::get('/user/{id}/nama/{nama}', [UserController::class, 'userProfile']);
