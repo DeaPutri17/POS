@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-sccale=1">
-        <title>POS</title>
+        <title>USER PROFILE</title>
     </head>
     <body>
         <h1>Halo!!</h1>
